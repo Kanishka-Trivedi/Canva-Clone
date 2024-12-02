@@ -2,6 +2,9 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0px;
+    background-color: white;
 }
 
 .left{
@@ -270,4 +273,42 @@ header{
     color: white;
     font-size: 63px;
     font-weight: 600;
+}
+
+.section12{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+.p1{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.section13{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.mid{
+    text-align: center;
+}
+
+.rig > img {
+    height: 30px;
+    width: 30px;
+}
+
+.last-sect{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    width: 100%;
 }
