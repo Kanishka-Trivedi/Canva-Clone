@@ -176,3 +176,97 @@ header{
     width: 80%;
     padding-left: 80px;
 }
+
+.section8{
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+    margin-top: 50px;
+}
+
+.right1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.right1 > h3 {
+    font-size: 24px;
+    font-weight: 400;
+    width: 80%;
+    padding-left: 80px;
+    margin-top: 0px;
+}
+
+.flexy{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+
+.img-container{
+    overflow: hidden; /* Ensures the image doesn't spill out */
+    width: 275px; /* Set container width */
+    height: 230px; /* Set container height */
+    border-radius: 10px; /* Optional styling */
+}
+
+.image {
+    width: 100%; /* Ensure the image fits the container */
+    height: 100%;
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.img-container:hover .image {
+    transform: scale(1.1); /* Enlarges the image on hover */
+}
+
+.box2{
+    height: 100%;
+    width: 100%;
+}
+
+.box2 > h4 {
+    margin-top: 13px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.box2 > p {
+    margin-top: 0px;
+    padding-bottom: 0px;
+    width: 93%;
+    font-size: 18px;
+    color: rgba(13, 16, 19, 0.921);
+    text-align: left;
+}
+
+.section10 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 330px;
+    width: 100%;
+}
+
+.jhi{
+    color: #7d2ae8;
+    font-size: 63px;
+    font-weight: 600;
+}
+
+.jhf{
+    color: white;
+    font-size: 63px;
+    font-weight: 600;
+}
