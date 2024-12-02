@@ -86,3 +86,93 @@ header{
 .box > img:hover {
     transform: scale(1.1);
 }
+
+.section3{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.head > p {
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.boxes > img {
+    width: 300px;
+    height: 350px;
+    border-radius: 13px;
+    margin: 15px;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logos > img {
+    width: 110px;
+    height: 60px;
+}
+
+.section4{
+    display: flex;
+    flex: 1;
+    margin-top: 95px;
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.left1 > h3 {
+    font-size: 25px;
+    font-weight: 400;
+    width: 80%;
+    padding-left: 80px;
+}
+
+.section5{
+    display: flex;
+    flex: 1;
+    margin-top: 95px;
+}
+
+.right1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.right1 > h3 {
+    font-size: 25px;
+    font-weight: 400;
+    width: 80%;
+    padding-left: 80px;
+}
+
+.section6{
+    display: flex;
+    flex: 1;
+    margin-top: 95px;
+    margin-bottom: 95px;
+}
+
+.left1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.left1 > h3 {
+    font-size: 25px;
+    font-weight: 400;
+    width: 80%;
+    padding-left: 80px;
+}
